@@ -4,8 +4,8 @@ module.exports = {
   configureWebpack: {
     plugins: [
       new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery"
+        $: 'jquery',
+        jQuery: 'jquery'
       })
     ]
   }

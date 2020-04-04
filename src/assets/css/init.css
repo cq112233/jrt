@@ -1,20 +1,95 @@
-@charset"utf-8"; *{margin:0;padding:0;} 
+@charset"utf-8";
 
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td a{ margin:0; padding:0; }
+* {
+    margin: 0;
+    padding: 0;
+}
 
-html,body{
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td a {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
     height: 100%;
 }
 
-img,input{border:none;}
+img,
+input {
+    border: none;
+}
 
-input,select,textarea{outline:none;} 
+input,
+select,
+textarea {
+    outline: none;
+}
 
-select,input,img{vertical-align:middle;}
+select,
+input,
+img {
+    vertical-align: middle;
+}
 
-ul,ol,li{list-style-type:none;} 
+ul,
+ol,
+li {
+    list-style-type: none;
+}
 
-a{text-decoration:none; color:#72ace3；} 
-a:focus{outline:none; -moz-outline:none}
+a {
+    text-decoration: none;
+    color: #72ace3；
+}
 
-table{border-collapse:collapse;} 
+a:focus {
+    outline: none;
+    -moz-outline: none
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.ewm .el-dialog {
+    background: url(../images/erweima.png) !important;
+    width: 535px !important;
+    height: 420px !important;
+}
+
+.ewm .el-dialog__headerbtn {
+    background-color: #000;
+    width: 30px !important;
+    height: 30px !important;
+    top: 10px !important;
+}
+
+.ewm .el-dialog__close {
+    color: #fff !important;
+}
